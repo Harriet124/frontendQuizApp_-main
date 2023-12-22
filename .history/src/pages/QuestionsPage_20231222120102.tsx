@@ -174,7 +174,7 @@ const QuestionsPage: React.FC = () => {
                   <img src="" alt="" />
                 </picture>
                 <div>
-                <p style={{fontSize:"20px"}}>Please select an answer</p>
+                <p style={{fontSize:"20px",color:"red"}}>Please select an answer</p>
                 </div>
               </div>
  

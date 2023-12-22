@@ -130,7 +130,10 @@ ul .bottomWrong{
 }
 
 ul .bottomWrong p{
-color:${({theme})=> theme.color.wrongColor};
+  display: flex;
+  justify-content:center;
+  flex-direction:row;
+
 }
 
 ul .bottomWrong picture{

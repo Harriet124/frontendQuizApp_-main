@@ -62,7 +62,7 @@ export const themes: Themes = {
       Buttons: "#FFFFFF",
       spanHover: " #A729F5",
       spanActive:"#FFFF",
-      wrongColor:"#EE5454",
+      wrongColor:"";
     },
     backgroundimg: {
       sunimgcolor: '/icon-sun-dark.svg',
@@ -95,7 +95,6 @@ export const themes: Themes = {
       Buttons: "#FFFFFF",
       spanHover: " #A729F5",
       spanActive:"#FFFF;",
-      wrongColor:"#FFFF",
     },
     backgroundimg:{
       sunimgcolor: '/icon-sun-light.svg',

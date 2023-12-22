@@ -14,7 +14,7 @@ export interface Theme extends DefaultTheme {
     Buttons: string;
     spanHover: string;
     spanActive: string;
-    
+    wrongColo
   };
   color: {
     main: string;
@@ -23,7 +23,7 @@ export interface Theme extends DefaultTheme {
     Buttons: string,
     spanHover: string;
     spanActive: string;
-    wrongColor:string;
+  
   };
   backgroundimg:{
     sunimgcolor: string;
@@ -61,8 +61,7 @@ export const themes: Themes = {
       questionstext: "#3B4D66",
       Buttons: "#FFFFFF",
       spanHover: " #A729F5",
-      spanActive:"#FFFF",
-      wrongColor:"#EE5454",
+      spanActive:"#FFFF;",
     },
     backgroundimg: {
       sunimgcolor: '/icon-sun-dark.svg',
@@ -95,7 +94,6 @@ export const themes: Themes = {
       Buttons: "#FFFFFF",
       spanHover: " #A729F5",
       spanActive:"#FFFF;",
-      wrongColor:"#FFFF",
     },
     backgroundimg:{
       sunimgcolor: '/icon-sun-light.svg',

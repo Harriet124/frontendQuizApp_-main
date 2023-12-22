@@ -129,10 +129,6 @@ ul .bottomWrong{
 
 }
 
-ul .bottomWrong p{
-color:${({theme})=> theme.color.wrongColor};
-}
-
 ul .bottomWrong picture{
   z-index: 5;
   left:63%;

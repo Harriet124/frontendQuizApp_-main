@@ -130,7 +130,7 @@ ul .bottomWrong{
 }
 
 ul .bottomWrong p{
-color:${({theme})=> theme.color.wrongColor};
+color:${({theme})=> th}
 }
 
 ul .bottomWrong picture{
