@@ -1,3 +1,4 @@
+/* global m */
 
 
 import React, {  useEffect, useState } from "react";
